@@ -195,4 +195,8 @@ public class DkimMessage extends SMTPMessage {
 		return bytes;
 	}
 
+	@Override
+	protected void updateMessageID() throws MessagingException {
+	}
+
 }
